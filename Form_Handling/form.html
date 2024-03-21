@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js" defer></script>
+</head>
+<body>
+    <form id="form" onsubmit="return submit_func()" method="post">
+        <input type="text" id="first_name" placeholder="First Name"><p class="error" style="display: inline-block;color:black"></p>
+        <br>
+        <input type="text" id="last_name" placeholder="Last Name"><p class="error" style="display: inline-block;color:black"></p>
+        <br>
+        <input type="number" id="phone" placeholder="Phone Number"><p class="error" style="display: inline-block;color:black"></p>
+        <br>
+        <input type="password" id="pass" placeholder="ENTER PASSWORD"><p class="error" style="display: inline-block;color:black"></p>
+        <br>
+        <input type="checkbox" value="Sprite">SPRITE<br>
+        <input type="submit" id="Submit_">
+    </form>
+</body>
+</html>
