@@ -26,7 +26,7 @@ let user_data={
     }
 }
 let editor_=function(key_){
-    return new Promise(function(resolve,reject){
+    return new Promise((resolve,reject)=>{
             if(key_ in user_data){
                 resolve()
             }
